@@ -33,7 +33,7 @@ public class MenuSelect {
 			System.out.println(" "+seven+"\t"+"\t"+" "+eight);
 			System.out.println("***********************************************");
 			System.out.print("메뉴 번호를 선택해주세요 ");
-			int menu=value.nextInt();
+			int menu=value.nextInt();  
 			
 			//메뉴 정보 출력
 			switch(menu) {

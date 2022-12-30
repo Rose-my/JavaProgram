@@ -34,7 +34,7 @@ public class Welcome {
 		//메뉴 선택
 		int menu=value.nextInt();
 		System.out.println(menu+"번을 선택했습니다");
-		value.close();
+		value.close(); 
 	}
 
 }
