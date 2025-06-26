@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         // Please write your code here.
-        int[] f = new int[n+1];
+        int[] f = new int[46];
         f[1]=1;
         f[2]=1;
         for(int i=3; i<n+1; i++){
